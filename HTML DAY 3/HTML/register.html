@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iSpotify | Register</title>
+  </head>
+  <body>
+    <table style="text-align: center">
+      <tr>
+        <td><a href="../index.html" style="font-size: larger">Home</a></td>
+        <td>|</td>
+        <td><a href="./about.html" style="font-size: larger">About</a></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <h2 style="text-align: center">Register Form</h2>
+    <form action="./profile.html" id="form_regis">
+      <table width="100%">
+        <tr>
+          <td style="text-align: right">
+            <label for="email">Enter your email :</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" placeholder="Ex: youremail@email.com" required />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right">
+            <label for="uname">Enter your username :</label>
+          </td>
+          <td>
+            <input type="text" id="uname" name="uname" placeholder="Ex: John Doe" required />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right">
+            <label for="phone">Enter your phone number :</label>
+          </td>
+          <td>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{12}" placeholder="Ex: 08XXXXXXXXXX (12)" required />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right">
+            <span>What&apos;s your choice :</span>
+          </td>
+          <td>
+            <input type="radio" id="free_account" name="type_account" value="Free" required />
+            <label for="free_account">Free</label>
+            <br />
+            <input type="radio" id="personal_account" name="type_account" value="Personal" />
+            <label for="personal_account">Personal</label>
+            <br />
+            <input type="radio" id="family_account" name="type_account" value="Family" />
+            <label for="family_account">Family</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center; padding: 20px">
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
