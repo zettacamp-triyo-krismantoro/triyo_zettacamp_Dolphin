@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Noto Sans Japanese";
+  src: url('./assets/font/NotoSansJP-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  font: normal 1rem Arial, Helvetica, sans-serif;
+}
+
+/* header-menu section start */
+.nav-bar {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
+  height: 5vmax;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw 0;
+}
+
+.brand, .title-text, .our-profile {
+  font: normal bold 1.5rem 'Noto Sans Japanese';
+}
+
+a.home-button {
+  color: rgba(0, 223, 162, 1);
+  text-decoration: none;
+}
+
+a.menu-button {
+  color: black;
+  text-decoration: none;
+}
+
+a.menu-button:hover {
+  color: rgb(0, 211, 155);
+  text-shadow: rgba(0, 223, 162, 1) 1px 0px 5px;
+}
+
+.submenu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3vh 3vw 0 0;
+}
+
+/* header-menu section finish */
+
+/* content start */
+.video-demo-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 3vh auto 0;
+}
+
+.video-demo {
+  width: 100vmin;
+}
+
+.box-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: aqua;
+  width: 100vmin;
+  opacity: 40%;
+}
+
+.description-paragraph {
+  margin: 3vh;
+  text-align: center;
+}
+
+.description-paragraph > em > span:hover {
+  color: rgba(0, 223, 162, 1);
+}
+
+.master-container {
+  box-sizing: border-box;
+  border: 3px solid black;
+  margin: 1rem 60vmin;
+  box-shadow: 4px 5px 7px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.page-title {
+  position:sticky;
+  top: 0;
+  text-align: center;
+  padding: 3vh 0 3vh 0;
+  background-color:white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  justify-content:space-evenly;
+}
+
+.flex-item {
+  border: 1.8px solid black;
+  width: 10vw;
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.flex-item:hover {
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+}
+
+.image-product-content {
+  width: 10vw;
+}
+
+.image-product-added {
+  width: 5vw;
+}
+
+.name-product-content {
+  font: normal 400 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.name-product-content span:first-child {
+  color:rgb(0, 211, 0);
+}
+
+.form-add-item-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 5vh 30vw;
+}
+
+form {
+  margin: 20px;
+  text-align: center;
+}
+
+.added-item {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  width: 40vw;
+}
+
+.per-added-item {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 5vh 80px;
+}
+
+.about-us {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 4vh 5vw;
+}
+
+.our-profile-content {
+  text-align: center;
+}
+/* content finish */
+
+/* footer start*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  background-color: rgba(0, 223, 162, 1);
+  height: 7vh;
+  width: 100vw;
+}
+
+.footer-menu-button {
+  text-decoration: none;
+  color: rgb(0, 60, 44);
+}
+/* footer finish*/
