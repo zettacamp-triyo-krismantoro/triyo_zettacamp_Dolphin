@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(30, 0, 18);
+}
+
+* {
+  color: antiquewhite;
+}
+
+h2 {
+  color: rgb(211, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+p.description {
+  font-size: larger;
+  text-align: justify;
+  padding: 0 20% 0 20%;
+}
+
+h3 {
+  color:rgb(211, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+table {
+  padding: 10px 20% 0 20%;
+  margin:0 auto 0 auto;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+td.name-agent {
+  font: large 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td.brims {
+  color: rgb(255, 68, 0);
+}
+
+td.omen {
+  color: rgb(30, 0, 255);
+}
+
+td.skye {
+  color: rgb(15, 216, 15);
+}
+
+td.sova {
+  color: rgb(52, 159, 252);
+}
+
+td.dead {
+  color: rgb(58, 254, 254);
+}
+
+p.agent-desc {
+  padding: 0% 5% 0% 5%;
+  font-size: large;
+}

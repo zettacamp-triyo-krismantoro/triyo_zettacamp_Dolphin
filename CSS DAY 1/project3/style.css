@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(7, 0, 29);
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+h2 {
+  color: antiquewhite;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 30px;
+}
+
+p {
+  color: antiquewhite;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+p.identity {
+  text-align: center;
+}
+
+span.first-span {
+  color:cyan;
+  font-size: x-large;
+}
+
+span.second-span {
+  color: rgb(3, 202, 202);
+  font-size: larger;
+}
+
+span.latin {
+  font-style: oblique;
+}
