@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, .page-title {
+  background-color: rgba(255, 217, 183, 1);
+}
+
+.master-container {
+  box-sizing: border-box;
+  border: 3px solid black;
+  margin: 3rem;
+  box-shadow: 4px 5px 7px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.page-title {
+  position:sticky;
+  top: 0;
+  text-align: center;
+  padding: 3vh 0 3vh 0;
+}
+
+.title-text {
+  font: normal bold 1.2em 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  justify-content:space-evenly;
+}
+
+.flex-item {
+  border: 1.8px solid black;
+  width: 25vw;
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.image-product-content {
+  width: 20vw;
+}
+
+.name-product-content {
+  font: normal 400 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-item:hover {
+  box-shadow: 4px 5px 4px 7px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 195, 142);
+}
+
+p.name-product-content span:first-child {
+  color:rgb(0, 211, 0);
+}
+
+.footer-space {
+  background-color: rgb(255, 195, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal 400 1rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 6.5vh;
+}
