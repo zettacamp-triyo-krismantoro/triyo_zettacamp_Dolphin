@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bgc-body {
+  background-color:rgb(185, 203, 238);
+}
+
+.ta-body {
+  text-align: center;
+}
+
+.font-title {
+  font-family: 'Lato', sans-serif;
+}
+
+h2.title-ecommerce {
+  background-color: rgb(9, 84, 190);
+  color: white;
+  padding: 15px;
+  width: 100cap;
+  font-size: 32px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+h3.title-page {
+  background-color: rgb(78, 146, 255);
+  color: black;
+  font-size: 20px;
+  width: 100%;
+}
+
+.content-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0% 25%;
+  gap: 1rem;
+}
+
+img {
+  height: 160px;
+}
+
+div.desc-item {
+  padding: 10px 10px;
+}
+
+div.item {
+  margin: auto;
+  box-shadow: 2px 5px 10px 3px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
