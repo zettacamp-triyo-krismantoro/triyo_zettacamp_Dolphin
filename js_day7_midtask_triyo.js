@@ -67,8 +67,6 @@ function createPlayList() {
   const totalMinutePlayList = Math.floor(durationCounter / 60);
   const totalSecondPlayList = durationCounter - (totalMinutePlayList * 60);
   totalDurationPlayList = `${totalMinutePlayList} minutes ${totalSecondPlayList} seconds`;
-  console.log(durationCounter);
-  console.log(totalMinutePlayList * 60);
 
   return [playListSong, totalDurationPlayList];
 }
